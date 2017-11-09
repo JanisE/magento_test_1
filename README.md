@@ -1,6 +1,6 @@
 ## Magento test environment
 
-The environment and software is defined by (./docker_magento/Dockerfile) and (./docker_magento/install_magento.sh).
+The environment and software is defined by [/docker_magento/Dockerfile](/docker_magento/Dockerfile) and [/docker_magento/install_magento.sh](/docker_magento/install_magento.sh).
 
 At the moment, it installs PHP 7.1.11, Apache 2.4.10, Magento CE/Open 2.2.1 without sample data.
 
@@ -35,9 +35,12 @@ Then I go to admin at http://127.0.0.1:8234/magento/admin and log in as `admin:a
 
 ## Notes
 
-To connect to the environment, use
+To access the Magento installation files, I can use `/home/janis/magento/magento_test_1/html` folder,
+
+or I can connect to the environment by
 ```bash
 sudo docker exec -it magentotest1_dev_1 bash
 ```
+
 
 To stop the DB and Apache services, abort the docker-compose command ([Ctrl]+[c]).
