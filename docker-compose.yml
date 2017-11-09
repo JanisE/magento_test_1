@@ -1,0 +1,25 @@
+version: "3.1"
+
+services:
+    dev:
+        build: "docker_magento"
+        image: "docker_magento"
+        ports:
+            - "8234:80"
+        volumes:
+            - "/home/janis/Darbvirsma/magento/html:/var/www/html"
+            - "/etc/group:/etc/group:ro"
+            - "/etc/passwd:/etc/passwd:ro"
+    db:
+        image: "mysql:5.7"
+        environment:
+            MYSQL_ROOT_PASSWORD: "example"
+            # The user below is not created if the data directory already exists.
+            MYSQL_USER: "magento"
+            MYSQL_DATABASE: "magento"
+            MYSQL_PASSWORD: "magento"
+        volumes:
+            - "/home/janis/Darbvirsma/magento/db:/var/lib/mysql"
+        # So IDE can connect.
+        ports:
+            - "3336:3306"
