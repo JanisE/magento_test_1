@@ -28,6 +28,7 @@ sudo rm -rf /home/janis/magento/v221_with_sample/html
 
 ```bash
 mkdir -p /home/janis/magento
+mkdir /home/janis/magento/v221_with_sample
 cd /home/janis/magento
 
 git clone https://github.com/JanisE/magento_test_1.git
