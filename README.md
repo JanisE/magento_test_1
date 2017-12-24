@@ -24,7 +24,7 @@ sudo rm -rf /home/janis/magento/v221_with_sample/db
 sudo rm -rf /home/janis/magento/v221_with_sample/html
 ```
 
-### Set up the new installaction
+### Set up the new installation
 
 ```bash
 mkdir -p /home/janis/magento
@@ -52,9 +52,8 @@ When everything is done (when I see messages like `mysqld: ready for connections
 sudo docker exec magentotest1_dev_1 bash /root/install_magento.sh
 ```
 
-When that one is over, the site is available at http://127.0.0.1:8234/magento/, where I create a new account as a customer.
-
-Then I go to admin at http://127.0.0.1:8234/magento/admin and log in as `admin:admin123`.
+When that one is over, the site is available at http://127.0.0.1:8234/magento/.
+Admin may be accessed at http://127.0.0.1:8234/magento/admin as `admin:admin123`.
 
 ## Notes
 
