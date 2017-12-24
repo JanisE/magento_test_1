@@ -52,7 +52,7 @@ When everything is done (when I see messages like `mysqld: ready for connections
 sudo docker exec magentotest1_dev_1 bash /root/install_magento.sh
 ```
 
-When that one is over (the last output being `Nothing to import.`), the site is available at http://127.0.0.1:8234/magento/, where I create a new account as a customer.
+When that one is over, the site is available at http://127.0.0.1:8234/magento/, where I create a new account as a customer.
 
 Then I go to admin at http://127.0.0.1:8234/magento/admin and log in as `admin:admin123`.
 
