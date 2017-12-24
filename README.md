@@ -57,7 +57,7 @@ Admin may be accessed at http://127.0.0.1:8234/magento/admin as `admin:admin123`
 
 ## Notes
 
-To access the Magento installation files, I can use `/home/janis/magento/magento_test_1/html` folder,
+To access the Magento installation files, I can use `/home/janis/magento/v221_with_sample/html` folder,
 
 or I can connect to the environment by
 ```bash
