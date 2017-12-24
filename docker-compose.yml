@@ -7,7 +7,7 @@ services:
         ports:
             - "8234:80"
         volumes:
-            - "/home/janis/magento/magento_test_1/html:/var/www/html"
+            - "/home/janis/magento/v221_with_sample/html:/var/www/html"
             - "/etc/group:/etc/group:ro"
             - "/etc/passwd:/etc/passwd:ro"
     db:
@@ -19,7 +19,7 @@ services:
             MYSQL_DATABASE: "magento"
             MYSQL_PASSWORD: "magento"
         volumes:
-            - "/home/janis/magento/magento_test_1/db:/var/lib/mysql"
+            - "/home/janis/magento/v221_with_sample/db:/var/lib/mysql"
         # So IDE can connect.
         ports:
             - "3336:3306"

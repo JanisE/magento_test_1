@@ -18,5 +18,6 @@ RUN docker-php-ext-install gd mcrypt mbstring zip intl xsl soap
 RUN apt-get install -y vim
 
 COPY ./install_magento.sh /root/
+COPY ./app /root/app
 
 WORKDIR /var/www/html
