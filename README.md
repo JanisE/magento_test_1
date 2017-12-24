@@ -34,6 +34,7 @@ cd /home/janis/magento
 
 git clone https://github.com/JanisE/magento_test_1.git
 cd magento_test_1
+git checkout magento_221_with_sample
 ```
 
 In `docker_magento/auth.json`, replace the username and password with your Magento Marketplace credentials.
