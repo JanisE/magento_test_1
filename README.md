@@ -20,20 +20,20 @@ sudo docker images
 sudo docker rmi docker_magento
 
 # The paths defined in "docker-compose.yml".
-sudo rm -rf /home/janis/magento/v221_with_sample/db
-sudo rm -rf /home/janis/magento/v221_with_sample/html
+sudo rm -rf /home/janis/magento/v222_with_sample/db
+sudo rm -rf /home/janis/magento/v222_with_sample/html
 ```
 
 ### Set up the new installation
 
 ```bash
 mkdir -p /home/janis/magento
-mkdir /home/janis/magento/v221_with_sample
+mkdir /home/janis/magento/v222_with_sample
 cd /home/janis/magento
 
 git clone https://github.com/JanisE/magento_test_1.git
 cd magento_test_1
-git checkout magento_221_with_sample
+git checkout magento_222_with_sample
 ```
 
 In `docker_magento/auth.json`, replace the username and password with your Magento Marketplace credentials.
@@ -57,7 +57,7 @@ Admin may be accessed at http://127.0.0.1:8234/magento/admin as `admin:admin123`
 
 ## Notes
 
-To access the Magento installation files, I can use `/home/janis/magento/v221_with_sample/html` folder,
+To access the Magento installation files, I can use `/home/janis/magento/v222_with_sample/html` folder,
 
 or I can connect to the environment by
 ```bash
