@@ -1,7 +1,7 @@
 # Install Magento.
 cd /var/www/html/
 
-composer create-project --no-interaction --repository-url=https://repo.magento.com/ magento/project-community-edition magento 2.2.1
+composer create-project --no-interaction --repository-url=https://repo.magento.com/ magento/project-community-edition magento 2.2.2
 
 cd magento/
 
