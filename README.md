@@ -5,11 +5,9 @@
 
 ## Magento test environment
 
-For reproducing https://github.com/magento/magento2/issues/12146
-
 The environment and software is defined by [/docker_magento/Dockerfile](/docker_magento/Dockerfile) and [/docker_magento/install_magento.sh](/docker_magento/install_magento.sh).
 
-At the moment, it installs PHP 7.1.11, Apache 2.4.10, Magento CE/Open 2.2.1 without sample data.
+The master branch installs PHP 7.1.11, Apache 2.4.10, Magento CE/Open 2.2.1 without sample data.
 
 ## Set up Magento
 
