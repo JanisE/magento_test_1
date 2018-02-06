@@ -1,3 +1,8 @@
+## Prerequisites
+
+* Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+* Docker Compose >= 1.13 (https://docs.docker.com/install/)
+
 ## Magento test environment
 
 For reproducing https://github.com/magento/magento2/issues/12146
