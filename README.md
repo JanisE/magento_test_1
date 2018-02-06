@@ -1,8 +1,13 @@
+## Prerequisites
+
+* Docker (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+* Docker Compose >= 1.13 (https://docs.docker.com/install/)
+
 ## Magento test environment
 
 The environment and software is defined by [/docker_magento/Dockerfile](/docker_magento/Dockerfile) and [/docker_magento/install_magento.sh](/docker_magento/install_magento.sh).
 
-It installs PHP 7.1.11, Apache 2.4.10, Magento CE/Open 2.2.1 with sample data.
+Branch "magento_222_with_sample" installs PHP 7.1.11, Apache 2.4.10, Magento CE/Open 2.2.2 with sample data.
 
 ## Set up Magento
 
